@@ -1,0 +1,495 @@
+html {
+    background-color : black;
+    color : white;
+}
+
+
+strong {
+    color : red;
+}
+
+
+h1 {
+    text-decoration : underline;
+}
+
+
+/* Flexbox
+EXAMPLE 1 */
+.flex-container {
+    display : flex;
+    background-color : dodgerblue;
+}
+
+
+.flex-container > div {
+    background-color : pink;
+    color : black;
+    margin : 10px;
+    padding : 20px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* The flex-direction Property
+EXAMPLE 1 || flex-direction : column || */
+.f_d_c {
+    display: flex;
+    flex-direction : column;
+    background-color : dodgerblue;
+}
+
+
+.f_d_c > div {
+    background-color : yellow;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 2 || flex-direction : column-reverse || */
+.f_d_cr {
+    display: flex;
+    flex-direction : column-reverse;
+    background-color : dodgerblue;
+}
+
+
+.f_d_cr > div {
+    background-color : yellow;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 3 || flex-direction : row || */
+.f_d_r {
+    display: flex;
+    flex-direction : row;
+    background-color : dodgerblue;
+}
+
+
+.f_d_r > div {
+    background-color : yellow;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 4 || flex-direction : row-reverse || */
+.f_d_rr {
+    display: flex;
+    flex-direction : row-reverse;
+    background-color : dodgerblue;
+}
+
+
+.f_d_rr > div {
+    background-color : yellow;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* The flex-wrap Property
+EXAMPLE 1 || flex-wrap : wrap || */
+.f_w_w {
+    display: flex;
+    flex-wrap : wrap;
+    background-color : dodgerblue;
+}
+
+
+.f_w_w > div {
+    background-color : lightgreen;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 2 || flex-wrap : nowrap || */
+.f_w_nw {
+    display: flex;
+    flex-wrap :nowrap;
+    background-color : dodgerblue;
+}
+
+
+.f_w_nw > div {
+    background-color : lightgreen;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 3 || flex-wrap : wrap-reverse || */
+.f_w_wr {
+    display: flex;
+    flex-wrap :wrap-reverse;
+    background-color : dodgerblue;
+}
+
+
+.f_w_wr > div {
+    background-color : lightgreen;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* The flex-flow Property
+EXAMPLE 1 || flex-flow : row wrap || */
+.f_f_rw {
+    display: flex;
+    flex-flow : row wrap;
+    background-color : dodgerblue;
+}
+
+
+.f_f_rw > div {
+    background-color : gray;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* The justify-content Property 
+EXAMPLE 1 || justify-content : center || */
+.j_c_c {
+    display: flex;
+    justify-content : center;
+    background-color : dodgerblue;
+}
+
+
+.j_c_c > div {
+    background-color : lightsalmon;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 2 || justify-content : flex-start || */
+.j_c_fs {
+    display: flex;
+    justify-content : flex-start;
+    background-color : dodgerblue;
+}
+
+
+.j_c_fs > div {
+    background-color : lightsalmon;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 3 || justify-content : flex-end || */
+.j_c_fe {
+    display: flex;
+    justify-content : flex-end;
+    background-color : dodgerblue;
+}
+
+
+.j_c_fe > div {
+    background-color : lightsalmon;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 4 || justify-content : space-around || */
+.j_c_sa {
+    display: flex;
+    justify-content : space-around;
+    background-color : dodgerblue;
+}
+
+
+.j_c_sa > div {
+    background-color : lightsalmon;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 5 || justify-content : space-between || */
+.j_c_sb {
+    display: flex;
+    justify-content : space-between;
+    background-color : dodgerblue;
+}
+
+
+.j_c_sb > div {
+    background-color : lightsalmon;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* The align-items Property 
+EXAMPLE 1 || align-items : center || */
+.a_i_c {
+    display: flex;
+    align-items : center;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.a_i_c > div {
+    background-color : olive;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 2 || align-items : flex-start || */
+.a_i_fs {
+    display: flex;
+    align-items : flex-start;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.a_i_fs > div {
+    background-color : olive;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 3 || align-items : flex-end || */
+.a_i_fe {
+    display: flex;
+    align-items : flex-end;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.a_i_fe > div {
+    background-color : olive;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 4 || align-items : stretch || */
+.a_i_s {
+    display: flex;
+    align-items : stretch;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.a_i_s > div {
+    background-color : olive;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 5 || align-items : baseline || */
+.a_i_b {
+    display: flex;
+    align-items : baseline;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.a_i_b > div {
+    background-color : olive;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* The align-content Property 
+EXAMPLE 1 || align-content : space-between || */
+.a_c_sb {
+    display: flex;
+    height : 600px;
+    flex-wrap : wrap;
+    align-content : space-between;
+    overflow : scroll;
+    background-color : dodgerblue;
+}
+
+
+.a_c_sb > div {
+    background-color : indigo;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 2 || align-content : space-around || */
+.a_c_sa {
+    display: flex;
+    height : 600px;
+    flex-wrap : wrap;
+    align-content : space-around;
+    overflow : scroll;
+    background-color : dodgerblue;
+}
+
+
+.a_c_sa > div {
+    background-color : indigo;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 3 || align-content : stretch || */
+.a_c_s {
+    display: flex;
+    height : 600px;
+    flex-wrap : wrap;
+    align-content : stretch;
+    overflow : scroll;
+    background-color : dodgerblue;
+}
+
+
+.a_c_s > div {
+    background-color : indigo;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}
+
+
+/* EXAMPLE 4 || align-content : center || */
+.a_c_c {
+    display: flex;
+    height : 600px;
+    flex-wrap : wrap;
+    align-content : center;
+    overflow : scroll;
+    background-color : dodgerblue;
+}
+
+
+.a_c_c > div {
+    background-color : indigo;
+    width : 100px;
+    line-height : 75px;
+    text-align : center;
+    color : black;
+    margin : 10px;
+    font-size : 30px;
+    font-weight : 1000;
+}

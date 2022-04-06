@@ -10,6 +10,349 @@
 </head>
 
 <body>
+    <!-- Flexbox -->
+    <h1>Flexbox</h1>
+    <p>• The Flexible Box Layout Module, makes it easier to design flexible reponsive layout structure without using
+        float or positioning.</p>
+    <p>• To start the Flexbox model, you need to first define a flex container.</p>
+
+    <!-- EXAMPLE 1 -->
+    <p>• <strong>EXAMPLE 1 - </strong>
+        A flex container with three flex items :</p>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <p>• The flex container properties are : </p>
+
+    <!-- The flex-direction Property -->
+    <h1>1 ~ The flex-direction Property</h1>
+    <p>• The flex-direction property defines in which direction the container wants to stack the flex items.</p>
+
+    <!-- EXAMPLE 1 || flex-direction : column || -->
+    <p>• <strong>EXAMPLE 1 || flex-direction : column ||</strong>
+        The column value stacks the flex items vertically (from top to bottom) :</p>
+    <div class="f_d_c">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 2 || flex-direction : column-reverse || -->
+    <p>• <strong>EXAMPLE 2 || flex-direction : column-reverse ||</strong>
+        The column-reverse value stacks the flex items vertically (but from bottom to top) :</p>
+    <div class="f_d_cr">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 3 || flex-direction : row || -->
+    <p>• <strong>EXAMPLE 3 || flex-direction : row ||</strong>
+        The row value stacks the flex items horizontally (from left to right) :</p>
+    <div class="f_d_r">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 4 || flex-direction : row-reverse -->
+    <p>• <strong>EXAMPLE 4 || flex-direction : row-reverse</strong>
+        The row-reverse value stacks the felx items horizontally (but from right to left) :</p>
+    <div class="f_d_rr">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- The flex-wrap Property -->
+    <h1>2 ~ The flex-wrap Property</h1>
+    <p>• The flex-wrap property specifies whether the flex items should wrap or not.</p>
+
+    <!-- EXAMPLE 1 || flex-wrap : wrap || -->
+    <p>• <strong>EXAMPLE 1 || flex-wrap : wrap ||</strong>
+        The wrap value specifies that the flex items will wrap if necessary.</p>
+    <div class="f_w_w">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 2 || flex-wrap : nowrap || -->
+    <p>• <strong>EXAMPLE 2 || flex-wrap : nowrap ||</strong>
+        The nowrap value specifies that the flex items will not wrap (this is default).</p>
+    <div class="f_w_nw">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 3 || flex-wrap : wrap-reverse || -->
+    <p>• <strong>EXAMPLE 3 || flex-wrap : wrap-reverse ||</strong>
+        The wrap-reverse value specifies that the flexible items will wraf if necessary, in reverse order :</p>
+    <div class="f_w_wr">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- The flex-flow Property -->
+    <h1>3 ~ The flex-flow Property</h1>
+    <p>• The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+    </p>
+
+    <!-- EXAMPLE 1 || flex-flow : row wrap || -->
+    <p>• <strong> EXAMPLE 1 || flex-flow : row wrap || </strong></p>
+    <div class="f_f_rw">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- The justify-content Property -->
+    <h1>4 ~ The justify-content Property</h1>
+    <p>• The justify-content property is used to align the flex items :</p>
+
+    <!-- EXAMPLE 1 || justify-content : center -->
+    <p>• <strong>EXAMPLE 1 || justify-content : center || </strong>
+        The center value aligns the flex items at the center of the container :</p>
+    <div class="j_c_c">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 2 || justify-content : flex-start || -->
+    <p>• <strong>EXAMPLE 2 || justify-content : flex-start ||</strong>
+        The flex-start value aligns the flex items at the beginning of the container (this is the default) :</p>
+    <div class="j_c_fs">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 3 || justify-content : flex-end || -->
+    <p>• <strong>EXAMPLE 3 || justify-content : flex-end ||</strong>
+        The flex-end value aligns the flex items at the end of the container :</p>
+    <div class="j_c_fe">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 4 || justify-content : space-around || -->
+    <p>• <strong>EXAMPLE 4 || justify-content : space-around ||</strong>
+        The space-around value display the flex items with space before, between, and after the lines :</p>
+    <div class="j_c_sa">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 5 || justify-content : space-between -->
+    <p>• <strong>EXAMPLE 5 || justify-content : space-between </strong>
+        The space-between value displays the flex items with space between the lines :</p>
+    <div class="j_c_sb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- The align-items Property -->
+    <h1>5 ~ The align-items Property</h1>
+    <p>• The align-items property is used to align the flex items :</p>
+
+    <!-- EXAMPLE 1 || align-items : center -->
+    <p>• <strong>EXAMPLE 1 || align-items : center </strong>
+        The center value align the flex items in the middle of the container :</p>
+    <div class="a_i_c">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 2 || align-items : flex-start || -->
+    <p>• <strong>EXAMPLE 2 || align-items : flex-start || </strong>
+        The flex-start value aligns the flex items at the top of the container :</p>
+    <div class="a_i_fs">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 3 || align-items : flex-end || -->
+    <p>• <strong>EXAMPLE 3 || align-items : flex-end || </strong>
+        The flex-end value aligns the flex items at the end/bottom of the container :</p>
+    <div class="a_i_fe">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 4 || align-items : stretch || -->
+    <p>• <strong>EXAMPLE 4 || align-items : stretch || </strong>
+        The stretch value stretches the flex items to fill the container (this is default) :</p>
+    <div class="a_i_s">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 5 || align-items : baseline || -->
+    <p>• <strong>EXAMPLE 5 || align-items : baseline || </strong>
+        The baseline value aligns the flex items such as their baselines aligns :</p>
+    <div class="a_i_b">
+        <div>
+            <h2>1</h2>
+        </div>
+        <div>
+            <h6>2</h6>
+        </div>
+        <div>
+            <h3>3</h3>
+        </div>
+        <div><small>4</small></div>
+    </div>
+    <br>
+
+    <!-- The align-content Property -->
+    <h1>6 ~ The align-content Property </h1>
+    <p>• The align-content property is used to align the flex lines.</p>
+
+    <!-- EXAMPLE 1 || align-content : space-between -->
+    <p>• <strong>EXAMPLE 1 || align-content : space-between</strong>
+        The space-between value displays the flex lines with equal space between them :</p>
+    <div class="a_c_sb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 2 || align-content : space-around -->
+    <p>• <strong>EXAMPLE 2 || align-content : space-between</strong>
+        The space-around value displays the flex lines with space before, between, and after them :</p>
+    <div class="a_c_sa">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 3 || align-content : space-stretch -->
+    <p>• <strong>EXAMPLE 3 || align-content : stretch</strong>
+        The stretch value stretches the flex lines to take up the remaining space (this is default) :</p>
+    <div class="a_c_s">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 4 || align-content : center || -->
+    <p>• <strong>EXAMPLE 4 || align-content : center ||</strong>
+        The center value displays display the flex lines in the middle of the container :</p>
+    <div class="a_c_c">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <br>
+    <hr size="30" noshade>
+
+
     <script src="doubts.js"></script>
 </body>
 
