@@ -541,13 +541,14 @@ EXAMPLE 1 || align-content : space-between || */
 }
 
 
-/* Perfect Centering */
+/* Perfect Centering 
+EXAMPLE 1 */
 .p_c {
     display : flex;
     justify-content : center;
     align-items : center;
     height : 300px;
-    background-color : orange;
+    background-color : dodgerblue;
 }
 
 
@@ -555,4 +556,170 @@ EXAMPLE 1 || align-content : space-between || */
     background-color : red;
     width : 100px;
     height : 100px;
+}
+
+
+/* CSS Flex Items 
+EXAMPLE 1 */
+.f_i {
+    display : flex;
+    background-color : dodgerblue;
+}
+
+
+.f_i > div {
+    background-color: orange;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* The order Property
+EXAMPLE 1 */
+.t_o_p {
+    display : flex;
+    align-items : stretch;
+    background-color : dodgerblue;
+}
+
+
+.t_o_p > div {
+    background-color: seagreen;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* The flex-grow Property
+EXAMPLE 1 */
+.f_g_p {
+    display : flex;
+    align-items : stretch;
+    background-color : dodgerblue;
+}
+
+
+.f_g_p > div {
+    background-color: hotpink;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* The flex-shrink Property
+EXAMPLE 1 */
+.f_s_p {
+    display : flex;
+    align-items : stretch;
+    background-color : dodgerblue;
+}
+
+
+.f_s_p > div {
+    background-color: chocolate;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* The flex-basis Property
+EXAMPLE 1 */
+.f_b_p {
+    display : flex;
+    align-items : stretch;
+    background-color : dodgerblue;
+}
+
+
+.f_b_p > div {
+    background-color: lightgoldenrodyellow;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* The flex Property
+EXAMPLE 1 */
+.f_p {
+    display : flex;
+    align-items : stretch;
+    background-color : dodgerblue;
+}
+
+
+.f_p > div {
+    background-color: tomato;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* The align-self Property
+EXAMPLE 1 || align-self : center || */
+.a_s_c {
+    display : flex;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.a_s_c > div {
+    background-color: magenta;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+/* EXAMPLE 2 || align-self : flex-start || flex-end */
+.as_fs_fe {
+    display : flex;
+    height : 200px;
+    background-color : dodgerblue;
+}
+
+
+.as_fs_fe > div {
+    background-color: magenta;
+    color : black;
+    font-weight : 1000;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }

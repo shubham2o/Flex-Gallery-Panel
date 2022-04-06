@@ -390,7 +390,7 @@
     <br>
 
     <!-- Perfect Centering -->
-    <h1>~ Perfect Centering</h1>
+    <h1>Perfect Centering</h1>
     <p>• Set both the justify-content and align-items properties to center, and the flex item will be perfectly
         centered.</p>
 
@@ -401,7 +401,144 @@
         <div></div>
     </div>
     <br>
-    <hr size="30" noshade>
+
+    <!-- CSS Flex Items -->
+    <h1>CSS Flex Items</h1>
+    <p>• The direct child elements of a flex container automatically becomes flexible (flex) items.</p>
+
+    <!-- EXAMPLE 1 -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        All direct children of a flexible container becomes flexible items.</p>
+    <div class="f_i">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <br>
+
+    <p>• The flex item properties are : </p>
+
+    <!-- The order Property -->
+    <h1>1 ~ The order Property</h1>
+    <p>• The order property specifies the order of the flex items.</p>
+    <p>• The value must be a number, default value is 0.</p>
+
+    <!-- EXAMPLE 1 ||-->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        The order property can change the order of the flex items :</p>
+    <div class="t_o_p">
+        <div style="order : 3">1</div>
+        <div style="order : 2">2</div>
+        <div style="order : 4">3</div>
+        <div style="order : 1">4</div>
+    </div>
+    <br>
+
+    <!-- The flex-grow Property -->
+    <h1>2 ~ The flex-grow Property</h1>
+    <p>• The flex-grow property specifies how much a flex item will grow relative to the rest of the flex items.</p>
+    <p>• The value must be a number, default value is 0.</p>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        Make the third flex item grow eight times faster than the other flex items :</p>
+    <div class="f_g_p">
+        <div style="flex-grow : 1">1</div>
+        <div style="flex-grow : 1">2</div>
+        <div style="flex-grow : 8">3</div>
+    </div>
+    <br>
+
+    <!-- The flex-shrink Property -->
+    <h1>3 ~ The flex-shrink Property</h1>
+    <p>• The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.</p>
+    <p>• The value must be a number, default value is 1.</p>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        Do not let the third flex item shrink as much as the other flex items :</p>
+    <div class="f_s_p">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-shrink : 0">3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <br>
+
+    <!-- The flex-basis Property -->
+    <h1>4 ~ The flex-basis Property</h1>
+    <p>• The flex-basis property specifies the initial length of a flex item.</p>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        Set the initial length of the third flex item to 200 pixels :</p>
+    <div class="f_b_p">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis : 300px">3</div>
+        <div>4</div>
+    </div>
+    <br>
+
+    <!-- The flex Property -->
+    <h1>5 ~ The flex Property</h1>
+    <p>• The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.</p>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        Make the third flex item not growable (0), not shrinkable (0), and with an initial length of 200 pixels :</p>
+    <div class="f_p">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex : 0 0 200px">3</div>
+        <div>4</div>
+    </div>
+    <br>
+
+    <!-- The align-self Property -->
+    <h1>6 ~ The align-self Property</h1>
+    <p>• The align-self property specifies the alignment for the selected item inside the flexible container.</p>
+    <p>• The align-self property overrides the default alignment set by the container's align-items property.</p>
+
+    <!-- EXAMPLE 1 || align-self : center || -->
+    <p>• <strong>EXAMPLE 1 || align-self : center ||</strong>
+        Align the third flex item in the middle of the container :</p>
+    <div class="a_s_c">
+        <div>1</div>
+        <div>2</div>
+        <div style="align-self : center">3</div>
+        <div>4</div>
+    </div>
+    <br>
+
+    <!-- EXAMPLE 2 || align-self : flex-start || flex-end || -->
+    <p>• <strong>EXAMPLE 2 || align-self : flex-start || flex-end ||</strong>
+        Align the second flex item at the top of the container, and the third flex item at the bottom of the container :
+    </p>
+    <div class="as_fs_fe">
+        <div>1</div>
+        <div style="align-self : flex-start">2</div>
+        <div style="align-self : flex-end">3</div>
+        <div>4</div>
+    </div>
+    <br>
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
+    <!-- <h1>translateY</h1>
+    <p>• The translateY() CSS function repositions an element vertically on the 2D plane. Its result is a
+        transform-function.</p>
+    <p>• translateY(ty) is equivalent to translate(0, ty) or translate3d(0, ty, 0).</p>
+    <hr size="25" noshade>
+    <hr size="25" noshade> -->
 
 
     <script src="doubts.js"></script>
