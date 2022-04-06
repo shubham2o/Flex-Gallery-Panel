@@ -723,3 +723,195 @@ EXAMPLE 1 || align-self : center || */
     line-height: 75px;
     font-size: 30px;
 }
+
+
+/* The translate Method
+EXAMPLE 1 */
+.t_m {
+    width : 300px;
+    height : 100px;
+    background-color : mediumturquoise;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : translate(50px, 40px);
+}
+
+
+/* The rotate Method
+EXAMPLE 1 */
+.r_m {
+    width : 300px;
+    height : 100px;
+    background-color : indianred;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+}
+
+
+#r_m_1 {
+    width : 300px;
+    height : 100px;
+    background-color : thistle;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : rotate(20deg);
+}
+
+
+#r_m_2 {
+    width : 300px;
+    height : 100px;
+    background-color : thistle;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : rotate(-20deg);
+}
+
+
+/* The scale Method
+EXAMPLE 1 */
+.s_m {
+    margin: 200px;
+    width : 150px;
+    height : 150px;
+    background-color : lightskyblue;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : scale(2, 3);
+}
+
+
+/* The scaleX Method
+EXAMPLE 1 */
+.s_x_m {
+    margin-left : 100px;
+    width : 150px;
+    height : 150px;
+    background-color : purple;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : scaleX(2);
+}
+
+
+/* The scaleY Method
+EXAMPLE 1 */
+.s_y_m {
+    margin : 150px;
+    width : 150px;
+    height : 100px;
+    background-color : limegreen;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : scaleY(3);
+}
+
+
+/* The skewX Method
+EXAMPLE 1 */
+.sk_x_m {
+    width : 150px;
+    height : 100px;
+    background-color : firebrick;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+}
+
+
+.sk_x_m_1 {
+    width : 150px;
+    height : 100px;
+    background-color : firebrick;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : skewX(20deg);
+}
+
+
+/* The skewY Method
+EXAMPLE 1 */
+.sk_y_m {
+    width : 150px;
+    height : 100px;
+    background-color : yellow;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+}
+
+
+.sk_y_m_1 {
+    width : 150px;
+    height : 100px;
+    background-color : yellow;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : skewY(20deg);
+}
+
+
+/* The skew Method
+EXAMPLE 1 */
+.sk {
+    width : 150px;
+    height : 100px;
+    background-color : slateblue;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+}
+
+
+.sk_1 {
+    width : 150px;
+    height : 100px;
+    background-color : slateblue;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : skew(20deg, 10deg);
+}
+
+
+/* The matrix Method
+EXAMPLE 1 */
+.matrix {
+    width : 150px;
+    height : 100px;
+    background-color : lightseagreen;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+}
+
+
+.matrix1 {
+    width : 150px;
+    height : 100px;
+    background-color : lightseagreen;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+
+.matrix2 {
+    width : 150px;
+    height : 100px;
+    background-color : lightseagreen;
+    color : black;
+    font-weight : 1000;
+    border : 5px solid khaki;
+    transform : matrix(1, 0, 0.5, 1, 150, 0);
+}
