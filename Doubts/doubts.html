@@ -714,6 +714,89 @@
     <hr size="25" noshade>
 
 
+    <!-- * - all elements -->
+    <h1>* - all elements</h1>
+    <p>• The * means "all elements" (a universal selector), so we are setting all elements to have zero margins, and
+        zero padding, this making them look the same in all browsers.</p>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
+    <!-- CSS ::before Selector -->
+    <h1>CSS ::before Selector</h1>
+    <p>• The ::before selector inserts something before the content of each selected element(s).</p>
+
+    <!-- EXAMPLE || -->
+    <p>• <strong>EXAMPLE || </strong>
+        Insert some text before the content of each element with class = "bSelector" :</p>
+    <p class="bSelector">My name is Shubham Sharma</p>
+    <p class="bSelector">I live in Delhi</p>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
+    <!-- CSS ::after Selector -->
+    <h1>CSS ::after Selector</h1>
+    <p>• The ::after selector inserts something after the content of each selected element(s).</p>
+
+    <!-- EXAMPLE || -->
+    <p>• <strong>EXAMPLE || </strong>
+        Insert some text after the content of each element with class = "aSelector":</p>
+    <p class="aSelector">My name is Shubham Sharma</p>
+    <p class="aSelector">I live in Delhi</p>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
+    <!-- Difference between html{}, body{} and * in CSS -->
+    <h1>Difference between html{}, body{} and * in CSS</h1>
+    <p>1• html {}
+        <br><br>
+        html { <br>
+        color : black; <br>
+        background-color : white; <br>
+        }</p>
+    <p>This rule applies the color to the html element. All descendants of the html element inherit its color (but not
+        background color), including body. The body element has no default background color, meaning it's transparent,
+        so html's background will show through until and unless you set a background for body.</p><br>
+
+    <p>2• body {}
+        <br><br>
+        body { <br>
+        color : black; <br>
+        background-color : white; <br>
+        }</p>
+    <p>• This rule applies the colors to the body element. All descendants of the body element inherit its color. <br>
+        Similary to how the background of html, is propagated to the viewport automatically, the background of body will
+        be propagated to html automatically, untill and unlees you set a background for html as well. <br> Because of
+        this, if you only need one background (in usual circumstances), whether you use the first rule or the second
+        rule won't make any real difference. <br> You can, however, combine background styles for html and body with
+        other tricks to get some nifty background effects.</p><br>
+
+    <p>3• * {}
+        <br><br>
+        * { <br>
+        color : black; <br>
+        background-color : white; <br>
+        }</p>
+    <p>• This rule applies the colors to every element, so neither of the two properties is implicitly inherited. But
+        you can easily override this rule with anything else, including either of the above two rules, as * has
+        literally no significance in selector specificity. <br> Because this breaks the inheritance chain completely for
+        any property that is normally inherited such as color, setting those properties in a * rule is considered bad
+        practice unless you have a very good reason to break inheritance this way (most use cases that involve breaking
+        inheritance require you to do it for just one element, not all of them).</p>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
     <script src="doubts.js"></script>
 </body>
 

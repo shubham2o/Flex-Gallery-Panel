@@ -971,3 +971,17 @@ EXAMPLE 1 */
     border : 2px solid skyblue;
     box-sizing : border-box;
 }
+
+
+/* CSS ::before Selector 
+EXAMPLE 1 */
+.bSelector::before {
+    content : ":: - Read this - ";
+}
+
+
+/* CSS ::after Selector 
+EXAMPLE 1 */
+.aSelector::after{
+    content : " - :: - Remember this";
+}
