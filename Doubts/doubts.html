@@ -680,6 +680,40 @@
     <hr size="25" noshade>
 
 
+    <!-- CSS Box Sizing -->
+    <h1>CSS Box Sizing</h1>
+    <p>• The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+    </p>
+    <p>• By default, the width and height of an element is calculated like this : <br><br>
+        width + padding + border = actual width of an element <br>
+        height + padding + border = actual height of an element</p>
+    <p>• This means : When you set the width/height of an element, the element often appears bigger than you have set
+        (because the element's border and padding are to the element's specified width/height).</p>
+
+    <!-- EXAMPLE -->
+    <p>• <strong>EXAMPLE 1 || </strong>
+        The two div elements below end up with different sizes in the result (because div2 has a padding specified) :
+    </p>
+    <div class="div1">This div is smaller (width is 300px and height is 100px).</div><br>
+    <div class="div2">This div is bigger (width is also 300px and height is 100px).</div><br>
+
+    <p>• The box-sizing property solves this problem.</p>
+
+    <p>• The box-sizing property allows us to include the padding and border in an element's total width and height.</p>
+    <p>• If you set box-sizing : border-box; on an element, padding and border are included in the width and height :
+    </p>
+
+    <!-- EXAMPLE -->
+    <p>• <strong>EXAMPLE 2 || </strong>
+        Here is the same example as above, with box-sizing : border-box; added to both div elements :</p>
+    <div class="div3">Both divs are the same size now!</div><br>
+    <div class="div4">Hooray!</div><br>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
     <script src="doubts.js"></script>
 </body>
 

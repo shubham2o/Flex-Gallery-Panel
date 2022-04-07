@@ -936,3 +936,38 @@ EXAMPLE 1 */
     border : 2px solid white;
     border-radius : 10px;
 }
+
+
+/* CSS Box Sizing 
+EXAMPLE 1 */
+.div1 {
+    width : 300px;
+    height : 100px;
+    border : 2px solid springgreen;
+}
+
+
+.div2 {
+    width : 300px;
+    height : 100px;
+    padding : 50px;
+    border : 2px solid skyblue;
+}
+
+
+/* EXAMPLE 2 */
+.div3 {
+    width : 300px;
+    height : 100px;
+    border : 2px solid springgreen;
+    box-sizing : border-box;
+}
+
+
+.div4 {
+    width : 300px;
+    height : 100px;
+    padding : 50px;
+    border : 2px solid skyblue;
+    box-sizing : border-box;
+}
