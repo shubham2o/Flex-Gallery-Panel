@@ -985,3 +985,24 @@ EXAMPLE 1 */
 .aSelector::after{
     content : " - :: - Remember this";
 }
+
+
+/* CSS :nth-child() Selector
+EXAMPLE - Selects the second element of div siblings */
+div#nth :nth-child(2) {
+    background : red;
+} 
+
+
+/* EXAMPLE - Selects the second li element in a list */
+li:nth-child(2) {
+    background : lightseagreen;
+}
+
+
+/* EXAMPLE - Selects every third element among any group of siblings */
+:nth-child(3) {
+    background : purple;
+    color : white;
+    border : 2px solid white;
+}

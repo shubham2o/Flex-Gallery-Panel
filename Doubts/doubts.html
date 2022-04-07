@@ -7,6 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="doubts.css">
     <title>Doubts</title>
+    <style>
+        span:nth-child(2) {
+            background: red;
+        }
+    </style>
 </head>
 
 <body>
@@ -791,6 +796,84 @@
         any property that is normally inherited such as color, setting those properties in a * rule is considered bad
         practice unless you have a very good reason to break inheritance this way (most use cases that involve breaking
         inheritance require you to do it for just one element, not all of them).</p>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
+    <!-- CSS box-sizing Property -->
+    <h1>CSS box-sizing Property</h1>
+    <p>• There are four types of box-sizing properties which are defined as follows :</p>
+    <p>1• content-box <br>
+        Default. The width and height properties (and min/max properties) includes only the content. Border and padding
+        are not included.</p>
+    <p>2• border-box <br>
+        The width and height properties (and min/max properties) includes content, padding and border.</p>
+    <p>3• initial <br>
+        Sets this property to its default value.</p>
+    <p>4• inherit <br>
+        Inherits this property from its parent element.</p>
+
+
+    <hr size="25" noshade>
+    <hr size="25" noshade>
+
+
+    <!-- CSS :nth-child() Selector -->
+    <h1>CSS :nth-child() Selector</h1>
+    <p>• The :nth-child(n) selector matches every element that is the nth child of its parent.</p>
+    <p>• n can be a number, a keyword (odd or even), or a formula (like an + b).</p>
+
+    <!-- EXAMPLE 1 || -->
+    <p>• <strong>EXAMPLE 1 ||</strong>
+        How to use the :nth-child() selector :</p>
+    <div id="nth">
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+        <p>This is some text.</p>
+    </div>
+    <ul>
+        <li>First list item</li>
+        <li>Second list item</li>
+        <li>Third list item</li>
+        <li>Fourth list item</li>
+        <li>Fifth list item</li>
+    </ul><br>
+
+    <!-- EXAMPLE 2 || -->
+    <p>• <strong>EXAMPLE 2 ||</strong>
+        Odd and even are keywords that can be used to match child elements whose index is odd or even (the index of the
+        first child is 1).</p>
+    <p>• Here, we specify two different background colors for odd and even p elements:</p>
+    <p>p:nth-child(odd) { <br>
+        background : red; <br>
+        }<br>
+    </p>
+    <p>p:nth-child(even) { <br>
+        background : lightgreen; <br>
+        }
+    </p><br>
+
+    <!-- EXAMPLE 3 || -->
+    <p>• <strong>EXAMPLE 3 ||</strong>
+        Using a formula (an + b). Description: a represents a cycle size, n is a counter (starts at 0), and b is an
+        offset value.</p>
+    <p>• Here, we specify a background color for all p elements whose index is a multiple of 3 (will select the third,
+        sixth, ninth, etc) :</p>
+    <p>p:nth-child(3n+0) { <br>
+        background : red; <br>
+        }
+    </p><br>
+
+    <!-- EXAMPLE 4 || -->
+    <p>• <strong>EXAMPLE 4 ||</strong>
+        Here, we specify a background color for all p elements whose index is a multiple of 3. Then we subtract 1 (will
+        select the second, fifth, eight, etc) :</p>
+    <p>p:nth-child(3n-1) { <br>
+        background : red; <br>
+        }
+    </p><br>
 
 
     <hr size="25" noshade>
